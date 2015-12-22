@@ -1,0 +1,92 @@
+.dv_error
+{
+	color:red;
+}
+
+
+.table_details table {
+
+align: center;
+text-align: center;
+valign: center;
+
+width:100%;       
+
+
+font-size: 14px;
+font-weight: normal;
+}
+
+.table_details th {
+
+/*width:200px;*/
+
+height:40px;
+
+font-weight: bold;
+
+ background-image: url(images/sub_bg.gif);
+border: 1px solid silver;
+-moz-border-radius: 5px 5px 5px 5px ;
+border-radius: 5px 5px 5px 5px ;
+}
+
+.table_details td {
+
+width:200px;		
+		
+height:50px;
+
+color:#1F2933;
+
+font-size: 11px;
+font-weight: normal;
+background-color: #ECF0FC;
+
+border: 1px solid silver;
+-moz-border-radius: 5px 5px 5px 5px ;
+border-radius: 5px 5px 5px 5px ;
+}
+
+
+
+.table_details a{
+
+ font-weight:normal;
+ text-decoration:none;
+ font-size:11px;
+
+ color:#1F2933;
+
+ 
+}
+
+.table_details a:hover{
+  color:#4169E1;
+  }
+  
+  
+
+.file_input_div
+{
+	position: relative; 
+	width: 100px; 
+	height: 30px; 
+	overflow: hidden;
+	float: right;
+}
+.file_input_hidden
+{
+	font-size: 45px; 
+	position: absolute; 
+	right: 0px; 
+	top: 0px; 
+	opacity: 0; 
+	
+	filter: alpha(opacity=0); 
+	-ms-filter: "alpha(opacity=0)"; 
+	-khtml-opacity: 0; 
+	-moz-opacity: 0;
+}
+
+
